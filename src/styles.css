@@ -1,0 +1,273 @@
+:root {
+  --bg: #0c0b0a;
+  --ink: #f4efe6;
+  --muted: rgba(244, 239, 230, 0.72);
+  --line: rgba(244, 239, 230, 0.18);
+  --serif: "Cormorant Garamond", Georgia, serif;
+  --sans: "Outfit", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-weight: 300;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+.film-track {
+  position: relative;
+}
+
+.film-stage {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.film-layer {
+  position: absolute;
+  inset: 0;
+  transition: opacity 80ms linear;
+}
+
+.film-media {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.film-scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(12, 11, 10, 0.72) 0%,
+    rgba(12, 11, 10, 0.12) 42%,
+    rgba(12, 11, 10, 0.28) 100%
+  );
+  pointer-events: none;
+  z-index: 20;
+}
+
+.film-kicker {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 21;
+  margin: 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.film-kicker span {
+  display: block;
+  margin-top: 0.35rem;
+  letter-spacing: 0.08em;
+}
+
+.film-copy {
+  position: absolute;
+  left: 1.5rem;
+  right: 1.5rem;
+  bottom: 2rem;
+  z-index: 21;
+  max-width: 28rem;
+}
+
+.film-hint {
+  margin: 0 0 0.6rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.film-copy h2 {
+  margin: 0 0 0.6rem;
+  font-family: var(--serif);
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.film-copy ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.film-copy li {
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.close,
+.gallery {
+  padding: 5rem 1.5rem 6rem;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+h1 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  font-weight: 500;
+}
+
+.gallery h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 500;
+}
+
+.lede {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  max-width: 40rem;
+  line-height: 1.5;
+}
+
+.agent {
+  margin: 1.75rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.agent span,
+.agent a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.showing {
+  display: grid;
+  gap: 0.9rem;
+  max-width: 28rem;
+}
+
+.showing label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.showing input,
+.showing textarea {
+  font: inherit;
+  font-size: 1rem;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  padding: 0.55rem 0;
+  width: 100%;
+}
+
+.showing button {
+  margin-top: 0.5rem;
+  justify-self: start;
+  font: inherit;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: var(--bg);
+  background: var(--ink);
+  border: 0;
+  padding: 0.85rem 1.4rem;
+  cursor: pointer;
+}
+
+.thanks {
+  color: var(--muted);
+}
+
+.hp {
+  position: absolute;
+  left: -9999px;
+}
+
+.grid {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+.grid figure {
+  margin: 0;
+}
+
+.grid img {
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+}
+
+@media (min-width: 800px) {
+  .film-kicker,
+  .film-copy {
+    left: 2.5rem;
+  }
+
+  .film-copy {
+    bottom: 2.5rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .grid img {
+    height: 16rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .film-layer {
+    transition: none;
+  }
+
+  .film-media {
+    transform: none !important;
+  }
+}

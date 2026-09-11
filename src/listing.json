@@ -1,0 +1,171 @@
+{
+  "name": "Sunset Estates",
+  "address": {
+    "street": "1420 W 23rd St",
+    "city": "Miami Beach",
+    "region": "FL",
+    "postal": "33140",
+    "country": "US"
+  },
+  "price": "$110,000,000",
+  "status": "For sale",
+  "mls": "A12018167",
+  "beds": 9,
+  "baths": 11,
+  "baths_full": 9,
+  "baths_half": 2,
+  "sqft": 10791,
+  "structure_sqft": 17407,
+  "lot_acres": 0.75,
+  "lot_sqft": 32670,
+  "year_built": 2025,
+  "style": "Modern/Contemporary",
+  "community": "Sunset Islands III",
+  "subdivision": "Sunset Islands-Island No 3",
+  "waterfront_ft": 187,
+  "architect": "Kobi Karp",
+  "developer": "Todd Michael Glaser",
+  "hoa_annual": 5000,
+  "agents": [
+    {
+      "name": "Ana Teresa Rodriguez",
+      "brokerage": "Coldwell Banker Realty",
+      "phone": "786-442-5309",
+      "email": ""
+    }
+  ],
+  "cta": {
+    "label": "Request a showing",
+    "phone": "786-442-5309",
+    "email": ""
+  },
+  "virtual_tour": "https://www.youtube.com/watch?v=IYy0NfzSx6c",
+  "source_url": "https://www.zillow.com/homedetails/1420-W-23rd-St-Miami-Beach-FL-33140/43894818_zpid/",
+  "beats": [
+    {
+      "id": "aerial",
+      "title": "The compound",
+      "bullets": [
+        "Sunset Islands III, guard-gated",
+        "187 feet of canal frontage",
+        "Primary residence and guest pavilion"
+      ],
+      "still": "/stills/01-aerial.jpg",
+      "video": null
+    },
+    {
+      "id": "approach",
+      "title": "Arrival",
+      "bullets": [
+        "Tropical approach through the grounds",
+        "Wood-slat facade",
+        "Quiet, private entry"
+      ],
+      "still": "/stills/02-approach.jpg",
+      "video": null
+    },
+    {
+      "id": "courtyard",
+      "title": "The courtyard",
+      "bullets": [
+        "Lawn corridor between the wings",
+        "Brazilian Ipe soffits",
+        "Stone walk through the architecture"
+      ],
+      "still": "/stills/03-courtyard.jpg",
+      "video": null
+    },
+    {
+      "id": "living",
+      "title": "Living",
+      "bullets": [
+        "Soaring 12-foot ceilings",
+        "Ipe, exposed concrete, glass",
+        "Indoor–outdoor living"
+      ],
+      "still": "/stills/04-living.jpg",
+      "video": null
+    },
+    {
+      "id": "kitchen",
+      "title": "Kitchen",
+      "bullets": [
+        "Kitchen island",
+        "Gas range, full appliance suite",
+        "Marble and wood floors"
+      ],
+      "still": "/stills/05-kitchen.jpg",
+      "video": null
+    },
+    {
+      "id": "primary",
+      "title": "Entertaining",
+      "bullets": [
+        "Family room opening to the garden",
+        "Grand piano at the glass",
+        "Bar and gathering space"
+      ],
+      "still": "/stills/06-primary.jpg",
+      "video": null
+    },
+    {
+      "id": "guest",
+      "title": "The garden rooms",
+      "bullets": [
+        "Glass walls fully open",
+        "Covered terrace beyond",
+        "Pool visible through the opening"
+      ],
+      "still": "/stills/07-guest.jpg",
+      "video": null
+    },
+    {
+      "id": "threshold",
+      "title": "Toward the water",
+      "bullets": [
+        "Glass opening to the terraces",
+        "Canal and ocean access",
+        "No fixed bridges"
+      ],
+      "still": "/stills/08-threshold.jpg",
+      "video": null
+    },
+    {
+      "id": "finale",
+      "title": "The water",
+      "bullets": [
+        "Olympic-length lap pool and spa",
+        "Private dock",
+        "Dusk over the bay"
+      ],
+      "still": "/stills/09-finale.jpg",
+      "video": null
+    }
+  ],
+  "gallery": [
+    { "src": "/stills/01-aerial.jpg", "alt": "Aerial of the waterfront compound" },
+    { "src": "/stills/02-approach.jpg", "alt": "Tropical entry approach" },
+    { "src": "/stills/03-courtyard.jpg", "alt": "Courtyard corridor between wings" },
+    { "src": "/stills/04-living.jpg", "alt": "Living interiors" },
+    { "src": "/stills/05-kitchen.jpg", "alt": "Kitchen" },
+    { "src": "/stills/06-primary.jpg", "alt": "Entertaining room with piano" },
+    { "src": "/stills/07-guest.jpg", "alt": "Interior opening to the garden" },
+    { "src": "/stills/08-threshold.jpg", "alt": "Indoor–outdoor threshold" },
+    { "src": "/stills/09-finale.jpg", "alt": "Olympic lap pool at dusk" },
+    { "src": "/stills/g-10.jpg", "alt": "Estate photograph" },
+    { "src": "/stills/g-11.jpg", "alt": "Estate photograph" },
+    { "src": "/stills/g-12.jpg", "alt": "Estate photograph" },
+    { "src": "/stills/g-13.jpg", "alt": "Estate photograph" },
+    { "src": "/stills/g-14.jpg", "alt": "Estate photograph" },
+    { "src": "/stills/g-15.jpg", "alt": "Estate photograph" },
+    { "src": "/stills/g-16.jpg", "alt": "Estate photograph" },
+    { "src": "/stills/g-17.jpg", "alt": "Estate photograph" },
+    { "src": "/stills/g-18.jpg", "alt": "Estate photograph" },
+    { "src": "/stills/g-19.jpg", "alt": "Estate photograph" },
+    { "src": "/stills/g-20.jpg", "alt": "Estate photograph" },
+    { "src": "/stills/g-21.jpg", "alt": "Estate photograph" },
+    { "src": "/stills/g-22.jpg", "alt": "Estate photograph" },
+    { "src": "/stills/g-23.jpg", "alt": "Estate photograph" },
+    { "src": "/stills/g-24.jpg", "alt": "Estate photograph" }
+  ]
+}
